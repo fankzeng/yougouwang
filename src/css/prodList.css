@@ -1,0 +1,56 @@
+
+/* ===============typeSelect================ */
+.typeSelect{width:1190px;margin:0 auto;color:#555;}
+.selectPath{height:38px;line-height: 38px;}
+.selectPath .span,.selectPath a{float:left;}
+.typeList{width:1188px;height:223px;border:1px solid #ececec;overflow: hidden;}
+.typeList .selBrand{height:68px;border-bottom:1px solid #ececec;}
+.typeList .selBrand li img{margin:10px 10px 0 10px;}
+.typeList .type_tit,.typeList li,.typeList ul{float:left;}
+.typeList dt{width:1199px;display:block;height:69px;}
+.typeList dt li{height:69px;}
+.typeList dd{width:1199px;height:38px;line-height: 38px;border-bottom:1px dashed #ececec;}
+.typeList .type_tit{margin-right:30px;text-align:right;color:#999;background:#F6F6F6;padding-right: 18px;line-height: 37px;width:80px;}
+.typeList dd li{width:86px;height:38px;line-height:38px;margin-right: 60px;}
+.typeList dd li a{color:#666;}
+.typeList .selBrand span{height:69px;}
+
+.sortMethod{width:1188px;height:24px;padding-top:5px;margin-top: 10px;border:1px solid #d7d4d3;background: #f5f5f5;}
+.sortMethod span,.sortMethod b,.sortMethod em,.sortMethod b i{float:left;line-height: 24px;margin:0 10px;}
+.sortMethod input{float:left;width:40px;margin:0 10px;}
+.sortMethod .pages{float:right;}
+
+/*================pic_list================*/
+.pic_list{width: 1190px;margin:0 auto;margin-top: 10px;overflow: hidden;}
+.pic_list ul li{float:left;width:232px;margin-right:6px;margin-bottom: 10px;}
+.pic_list ul li img{
+	border:1px solid #d1d3d4;
+	width:230px;
+	height:238px;
+	margin-bottom: 18px;
+}
+.pic_list ul li .act{
+	height: 16px;
+	width:226px;
+	position: absolute;
+	top:239px;
+	line-height: 16px;
+	color:#fbf9ff;
+	padding-left:6px;
+}
+.pic_list ul li .priv{
+	background: #f0a1a1;
+}
+.pic_list ul li .new_arr{
+	background: #BDDA71;
+}
+.pic_list ul li .new_arr b{float:right;margin-right:4px;}
+.pic_list ul li .lack{
+	background: #BBBBBB;
+}
+.pic_list ul li .lack b{float:right;margin-right:4px;}
+.pic_list ul li .priv b{font-weight: bold;}
+.pic_list ul li span{line-height: 20px;display:block;margin-bottom: 2px;}
+.pic_list ul li span a{color:#666;}
+.pic_list ul li em{font-weight: bold;color:red;margin-right: 4px;}
+.pic_list ul li del{color:#aaaaaa;}

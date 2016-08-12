@@ -1,0 +1,212 @@
+body{background: #f8f8f8;}
+
+/****************************banner*******************************/
+.banner{width:100%;}
+.showbanner{width:1190px;height:480px;margin:0 auto;position: relative;}
+.showbanner .imgbox{
+	margin-left:200px;
+	position: absolute;
+	display: block;
+	top:0;
+}
+.showbanner .banbnt{
+	height:19px;
+	line-height: 19px;
+	color: #98c5d3;
+	position: absolute;
+	top:432px;
+	left:auto;
+	right:18px;
+}
+.showbanner .banbnt li{
+	float:left;
+	height:19px;
+	width:19px;
+	text-align: center;
+	margin-left:10px;
+	color:#fff;
+	cursor: pointer;
+}
+
+.title{
+	height:36px;
+	border-bottom:3px solid #000;
+	width:100%;
+	margin-top: 30px;
+	line-height: 36px;
+	font-weight: bold;
+}
+.title span{margin-left: 6px;}
+.title a{color:#000;font-size: 16px;}
+.title a:hover{color:red;}
+.title a:hover span{color:#000;}
+.content{width:1190px;margin:0 auto;}
+.content .title a b{
+	height:36px;
+	line-height: 36px;
+	width:100px;
+	background: #000;
+	float:right;
+	text-align: center;
+	font-weight: 300;
+	font-size: 16px;
+	color:#fff;
+}
+.hotBrand{width:1190px;margin:0 auto;}
+.hotBrand .title{
+	height:36px;
+	border-bottom:3px solid #000;
+	width:100%;
+	margin-top: 30px;
+	line-height: 36px;
+	font-weight: bold;
+}
+.hotBrand .title{font-weight: 300;color:#666666;width:100%;font-size: 16px;}
+.hotBrand .title span{color:#939598;}
+.hotBrand .title a b{margin-left:990px;margin-right:0;font-size:14px;color:#666;}
+.title a:hover b{color:red;}
+.spilSell .title{font-weight: 300;color:#666666;font-size: 16px;}
+
+/***************hot brand****************/
+.hotBrand .ex_cont_first{
+	width:1164px;
+	height:494px;
+	margin:0 auto;
+	border:1px solid #d1d3d4;
+	background: #fff;
+	padding-left: 24px;
+	padding-top: 24px;
+}
+.hotBrand .ex_cont_pic{
+	height: 321px;
+}
+
+.hotBrand .ex_cont_pic li{
+ 	margin-right: 22px;
+ 	float:left;
+ 	height:321px;
+}
+
+.hotBrand .ex_cont_brand{width:1104px;padding-left: 30px;margin-top:54px;}
+.hotBrand .ex_cont_brand li{float:left;margin-bottom:20px;margin-right:25px;}
+
+.ex_content{
+	height:462px;
+	width:1176px;
+	margin:0 auto;
+	background: #fff;
+	border:1px solid #d1d3d4;
+	padding-left: 12px;
+	padding-top: 22px;
+}
+.ex_content .ex_cont_left{
+	float:left;
+	width:200px;
+	margin-right: 12px;
+}
+.ex_content .ex_cont_left .sortName{
+	width:200px;
+	height: 67px;
+	background: #000;
+	line-height: 67px;
+	font-weight: bold;
+}
+.ex_content .ex_cont_left .sortName a{color:#fff;font-size: 14px;float:left;margin:0 14px;}
+.ex_content .ex_cont_left ul{
+	width:200px;
+}
+.ex_content .ex_cont_left ul li{
+	float:left;
+	margin:0 7px;
+	margin-top:30px;
+}
+.ex_content .ex_cont_center{
+	margin-right: 20px;
+	width:360px;
+	height:430px;
+	border:1px solid #d1d3d4;
+	float:left;
+}
+
+.ex_content .ex_cont_right{
+	float:left;
+	width:558px;
+	border-bottom: 1px solid #9B9B9B;
+}
+
+.ex_content .ex_cont_right li{
+	float:left;
+	border-bottom: 1px solid #9B9B9B;
+	height:215px;
+}
+
+
+/********special sell************/
+.spilSell .tmarea{
+	position: relative;
+	width:1188px;
+	height:359px;
+	background: #fff;
+	margin:0 auto;
+	border:1px solid #d1d3d4;
+}
+
+.tmarea .tab_menu{
+	position: absolute;
+	top:-1px;
+}
+.tmarea .tab_menu li{
+	width:198px;
+	height:38px;
+	border-bottom: 1px solid #d1d3d4;
+	border-right: 1px solid #d1d3d4;
+	line-height: 38px;
+	padding-left: 14px;
+}
+.tmarea .tab_menu li a{color:#666666;font-size: 14px;}
+.tmarea .tab_menu li i{float:right;font-size:18px;margin-right: 11px;color:#fff;}
+.li_tab{
+	background: #000;
+}
+.tmarea .tab_menu .li_tab a{color:#fff;}
+.tmarea .tmlist{
+	width:964px;
+	height:330px;
+	position:absolute;
+	left:216px;
+	top:20px;
+	display:none;
+}
+.tmarea .tmlist li{float:left;width:232px;margin-left:7px;}
+.tmarea .tmlist li img{
+	border:1px solid #d1d3d4;
+	width:230px;
+	height:238px;
+	margin-bottom: 18px;
+}
+.tmlist li .act{
+	height: 16px;
+	width:226px;
+	position: absolute;
+	top:239px;
+	line-height: 16px;
+	color:#fbf9ff;
+	padding-left:6px;
+}
+.tmlist li .priv{
+	background: #f0a1a1;
+}
+.tmlist li .new_arr{
+	background: #BDDA71;
+}
+.tmlist li .new_arr b{float:right;margin-right:4px;}
+.tmlist li .lack{
+	background: #BBBBBB;
+}
+.tmlist li .lack b{float:right;margin-right:4px;}
+.tmlist li .priv b{font-weight: bold;}
+.tmlist li span{line-height: 20px;display:block;margin-bottom: 2px;}
+.tmlist li span a{color:#666;}
+.tmlist li em{font-weight: bold;color:red;margin-right: 4px;}
+.tmlist li del{color:#aaaaaa;}
+
